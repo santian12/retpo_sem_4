@@ -92,6 +92,7 @@ article p img{
     position: relative;
 }
 main button{
+    cursor: pointer;
     position: relative;
     width: 60px;
     height: 40px;
