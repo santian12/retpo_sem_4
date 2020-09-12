@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+html{
+   height: 770px;
+}
+body{
+    background:linear-gradient(#ffffff , rgb(32, 29, 179)); 
+    overflow: hidden;
+    height: 770px;
+}
+.img__art {
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 50%;
+    left: 50%;
+    top: 1%;
+    height: 400px;
+}
+.img{
+    border-radius: 12px;
+    box-shadow: 0px 3px 5px rgb(42, 45, 63);
+    width: 70%;
+    position: absolute;
+    left: 12%;
+    bottom: -27%;
+}
+.img2{
+    border-radius: 12px;
+    box-shadow: 0px 3px 5px rgb(42, 45, 63);
+    width: 70%;
+    position: absolute;
+    left: 12%;
+    bottom: -27%;
+}
+section{
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    padding-top: 35px;
+   height: 302px;
+}
+article p{
+    font-family: Inter;
+    font-weight: 300;
+    max-width:600px;
+    z-index: 1;
+    position: relative;
+    top: 180px;
+    left: 160px;
+    font-size: 27px;
+}
+.flex{
+    display: flex;
+}
+.display{
+    display: none;
+}
+article h3{
+ font-size: 16px;
+ position: relative;
+font-family: inter;
+left: 160px;
+top: 185px;
+}
+article .bg{
+    position: relative;
+    top: 50px;
+    height: 570px;
+}
+article .bg2{
+    position: relative;
+    top: 50px;
+    height: 570px;
+}
+article .pa{
+    position: relative;
+    color: rgb(255, 253, 253);
+    top: 150px;
+    left: 280px;
+    font-size: 14px; ;
+}
+article p img{
+    position: absolute;
+    bottom: 150px;
+    left: 60px;
+}
+.foot{
+    position: relative;
+   bottom: -160px;
+   right: 12px;
+}
+.art2{
+    display: none;                                                                                             
+    position: relative;
+}
+main button{
+    position: relative;
+    width: 60px;
+    height: 40px;
+    border: none;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.left{
+    background-image: url('https://i.imgur.com/lUKn7If.png');
+    position: absolute;
+    top:80% ;
+    left: 61%;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius:40px;
+}
+.rigth{
+    background-image: url('https://i.imgur.com/bA4gi4B.png');
+    position: absolute;
+    top: 80%;
+    left: 65% ;
+    border-top-right-radius:40px ;
+    border-bottom-right-radius: 40px;
+}
+@media (min-width: 320px) and (max-width:767px){
+    html{
+        width: 850px;
+        height: 290%;  
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    body{
+        width: 850px;
+        height: 100%;
+       
+    }
+    main{
+        height: 100%;
+      width: 100%;
+    }
+ section{
+     height: 100%;
+      width: 100%;
+  }
+  .img__art{
+      position: absolute;
+      right: 400%;
+    width: 100%;
+  }
+  article  {
+    height: 100%;
+    width: 100%;
+    padding-top: 0;
+  }
+ article  .bg{
+    position: relative;
+     height: 480px;
+      width: 400%;
+      right: 40%;
+     top: 11%;
+  }
+  article  .bg2{
+    position: relative;
+     height: 475px;
+      width: 150%;
+      right: 80%;
+     top: 9%;
+  }
+  .img{
+      left: 25%;
+    width: 250%;
+    bottom: -23%;
+  }
+  .img2{
+ position: relative;
+  width: 94%;
+  bottom:100%;
+  left: -52%;
+}
+  article p{
+align-items: center;
+ text-align: center;
+position: relative;
+top: -80%;
+color: white;
+font-size: 30px;
+left: 13%;
+ top: 40% ;
+width: 150%;
+margin-right: 0%;
+  }
+  article p img{
+      position: absolute;
+      left: 40%;
+  }
+
+  article .pa{
+      margin-right:0%;
+      width: 80%;
+      top: 44%;
+      font-size: 25px;
+      left: 15%;
+  }
+  article h3{
+      margin-right: 0;
+      margin-left: 0;
+      width: 25%;
+      margin-top: 0;
+      font-size: 30px;
+    top: 45%;
+    left: 37%;
+  }
+  .left{
+      left: 100%;
+      top:90%;
+      height: 50px ;
+  }
+  .rigth{
+    left: 118%;
+    top:90%;
+    height: 50px ;
+  }
+  .foot{
+      width: 620px; ;
+      left: -1%;
+      top: -18%;
+      display: flex;
+      align-items: flex-end;
+  }
+}
+@media  (min-width: 375px) and (max-width:424px){
+
+    article .bg{
+        right:55% ;
+        width:350% ;
+    }
+    article .img{
+        width: 215%;
+    }
+    article .img2{
+        width: 95%;
+        left:-50% ;
+    }
+    .foot{
+        top: -31%;
+    }
+    .left{
+        left: 110%;
+    }
+}
+@media  (min-width: 425px) and (max-width:766px){
+
+    article .bg{
+        top: 10%;
+        right:78% ;
+        width:320% ;
+    }
+    article .img{
+        width: 190%;
+        left: -7%;
+    }
+    article p{
+        top: 36%;
+    }
+    article h3{
+        top: 36%;
+        
+    }
+    article .pa{
+        top: 35%;
+    }
+    .left {
+     left: 100%;
+    }
+    .rigth{
+    left: 113%;
+    }
+}
+@media  (min-width: 768px) and (max-width:1024px){
+.img{
+    bottom: 8%;
+}
+.bg{
+    right: 30%;
+}
+.img2{
+    bottom: 8%;
+}
+.bg2{
+    right: 30%;
+}
+article p{
+position: absolute;
+font-size: 23px;
+width: 50%;
+left: 14%;
+right: 50%;
+bottom: 30%;
+}
+article h3{
+    left: 70%;
+top: 120%;
+}
+article .pa{
+    left: 24%;
+    position: absolute;
+    top: 119%;
+}
+.rigth{
+    left: 68%;
+}
+}
